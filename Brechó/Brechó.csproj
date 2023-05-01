@@ -55,6 +55,18 @@
     <Compile Include="FrmClienteCadastro.Designer.cs">
       <DependentUpon>FrmClienteCadastro.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmConsultaEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaEstoque.Designer.cs">
+      <DependentUpon>frmConsultaEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditaEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditaEstoque.Designer.cs">
+      <DependentUpon>frmEditaEstoque.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,16 +79,25 @@
     <Compile Include="frmMetododePagamento.Designer.cs">
       <DependentUpon>frmMetododePagamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="msdbDataSet.Designer.cs">
+    <Compile Include="NovaVenda.cs" />
+    <Compile Include="OBrechoEDelaDBDataSet.cs">
+      <DependentUpon>OBrechoEDelaDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OBrechoEDelaDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>msdbDataSet.xsd</DependentUpon>
+      <DependentUpon>OBrechoEDelaDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="NovaVenda.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmClienteCadastro.resx">
       <DependentUpon>FrmClienteCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaEstoque.resx">
+      <DependentUpon>frmConsultaEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditaEstoque.resx">
+      <DependentUpon>frmEditaEstoque.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInico.resx">
       <DependentUpon>frmInico.cs</DependentUpon>
@@ -93,16 +114,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="msdbDataSet.xsc">
-      <DependentUpon>msdbDataSet.xsd</DependentUpon>
+    <None Include="OBrechoEDelaDBDataSet.xsc">
+      <DependentUpon>OBrechoEDelaDBDataSet.xsd</DependentUpon>
     </None>
-    <None Include="msdbDataSet.xsd">
+    <None Include="OBrechoEDelaDBDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>msdbDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>OBrechoEDelaDBDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="msdbDataSet.xss">
-      <DependentUpon>msdbDataSet.xsd</DependentUpon>
+    <None Include="OBrechoEDelaDBDataSet.xss">
+      <DependentUpon>OBrechoEDelaDBDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -45,6 +45,18 @@ namespace Brechó
             FrmClienteCadastro novo = new FrmClienteCadastro();
             novo.Show();
         }
+
+        private void btnConsultarEstoque_Click(object sender, EventArgs e)
+        {
+            frmConsultaEstoque consulta = new frmConsultaEstoque();
+            consulta.Show();
+        }
+
+        private void btnAditaEstoque_Click(object sender, EventArgs e)
+        {
+            frmEditaEstoque edita = new frmEditaEstoque();
+            edita.Show();
+        }
     }
 
 

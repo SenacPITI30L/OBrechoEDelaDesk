@@ -37,3 +37,5 @@ C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.pdb
 C:\Users\victo\source\repos\Brechó\Brechó\bin\Debug\Brechó.exe.config
 C:\Users\victo\source\repos\Brechó\Brechó\bin\Debug\Brechó.exe
 C:\Users\victo\source\repos\Brechó\Brechó\bin\Debug\Brechó.pdb
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmConsultaEstoque.resources
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmEditaEstoque.resources
