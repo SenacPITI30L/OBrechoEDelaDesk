@@ -33,5 +33,18 @@ namespace Brechó.Properties {
                 return ((string)(this["msdbConnectionString"]));
             }
         }
+<<<<<<< HEAD
+=======
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=OBrechoEDelaDB;Integrated Security=True")]
+        public string OBrechoEDelaDBConnectionString {
+            get {
+                return ((string)(this["OBrechoEDelaDBConnectionString"]));
+            }
+        }
+>>>>>>> b4b9bab308ef4a0ae7be4acb6a154f4b6b41e444
     }
 }

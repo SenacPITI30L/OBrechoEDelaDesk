@@ -20,7 +20,29 @@ C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.exe
 C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.pdb
 C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmInico.resources
 C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmMetododePagamento.resources
+<<<<<<< HEAD
 C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmInico.resources
 C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmMetododePagamento.resources
 C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmFornecedorCadastro.resources
 C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmFornecedorCadastro.resources
+=======
+C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmClienteCadastro.resources
+C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmClienteCadastro.resources
+C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmInico.resources
+C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmMetododePagamento.resources
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.csproj.SuggestedBindingRedirects.cache
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmClienteCadastro.resources
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmInico.resources
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmMetododePagamento.resources
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.Properties.Resources.resources
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.csproj.GenerateResource.cache
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.exe
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.pdb
+C:\Users\victo\source\repos\Brechó\Brechó\bin\Debug\Brechó.exe.config
+C:\Users\victo\source\repos\Brechó\Brechó\bin\Debug\Brechó.exe
+C:\Users\victo\source\repos\Brechó\Brechó\bin\Debug\Brechó.pdb
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmConsultaEstoque.resources
+C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmEditaEstoque.resources
+>>>>>>> b4b9bab308ef4a0ae7be4acb6a154f4b6b41e444
