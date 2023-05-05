@@ -24,6 +24,7 @@ namespace Brechó
         private double Pagos;
         private double Troco;
         private double Desconto;
+        private string totalValor;
 
         public NovaVenda() { 
             this.nome = new Cliente();  
@@ -33,6 +34,7 @@ namespace Brechó
             this.Pagos = Pagos;
             this.Troco = Troco;
             this.Desconto = Desconto;
+            this.totalValor = totalValor;
         }  
 
         public void setvalorItem(double valorItem)
@@ -59,7 +61,10 @@ namespace Brechó
         {
             this.Desconto = Desconto;
         }
-
+        public void settotalValor(string totalValor) 
+        {
+            this.totalValor = totalValor;
+        }
         public double getValorItem() 
         {
             return this.valorItem;  
@@ -83,6 +88,11 @@ namespace Brechó
         public double getDesconto()
         {
             return this.Desconto;
+        }
+
+        public string getTotalValor() 
+        {
+            return this.totalValor;
         }
     }
     

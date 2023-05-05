@@ -83,7 +83,7 @@
             // 
             // btnGrafico
             // 
-            this.btnGrafico.Location = new System.Drawing.Point(694, 184);
+            this.btnGrafico.Location = new System.Drawing.Point(617, 184);
             this.btnGrafico.Name = "btnGrafico";
             this.btnGrafico.Size = new System.Drawing.Size(114, 42);
             this.btnGrafico.TabIndex = 5;
@@ -125,7 +125,7 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(427, 14);
+            this.chart1.Location = new System.Drawing.Point(333, 24);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
@@ -144,7 +144,7 @@
             // 
             // btnCadastrodeCliente
             // 
-            this.btnCadastrodeCliente.Location = new System.Drawing.Point(622, 404);
+            this.btnCadastrodeCliente.Location = new System.Drawing.Point(333, 413);
             this.btnCadastrodeCliente.Name = "btnCadastrodeCliente";
             this.btnCadastrodeCliente.Size = new System.Drawing.Size(218, 72);
             this.btnCadastrodeCliente.TabIndex = 9;
