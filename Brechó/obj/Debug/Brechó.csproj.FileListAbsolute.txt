@@ -24,3 +24,5 @@ C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmInic
 C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmMetododePagamento.resources
 C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmFornecedorCadastro.resources
 C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmFornecedorCadastro.resources
+C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmLogin.resources
+C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmCadastroUsuario.resources

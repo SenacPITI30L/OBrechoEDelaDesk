@@ -36,26 +36,14 @@ namespace Brechó
         private void btnNovaVenda_Click(object sender, EventArgs e)
         {
             frmMetododePagamento vender = new frmMetododePagamento();
-            vender.Show();
+            vender.ShowDialog();
             
         }
 
         private void btnCadastrodeCliente_Click(object sender, EventArgs e)
         {
-            FrmClienteCadastro novo = new FrmClienteCadastro();
-            novo.Show();
-        }
-
-        private void btnConsultarEstoque_Click(object sender, EventArgs e)
-        {
-            frmConsultaEstoque consulta = new frmConsultaEstoque();
-            consulta.Show();
-        }
-
-        private void btnAditaEstoque_Click(object sender, EventArgs e)
-        {
-            frmEditaEstoque edita = new frmEditaEstoque();
-            edita.Show();
+            FrmFornecedorCadastro novo = new FrmFornecedorCadastro();
+            novo.ShowDialog();
         }
     }
 
