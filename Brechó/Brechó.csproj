@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="CadastroDeCliente.cs" />
     <Compile Include="classButtonCheck.cs">
       <SubType>Form</SubType>
@@ -109,6 +110,64 @@
     <EmbeddedResource Include="frmMetododePagamento.resx">
       <DependentUpon>frmMetododePagamento.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <Compile Include="Classes\CadastroDeCliente.cs" />
+    <Compile Include="Classes\Cliente.cs" />
+    <Compile Include="Formularios\FrmFornecedorCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmFornecedorCadastro.Designer.cs">
+      <DependentUpon>FrmFornecedorCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmInico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmInico.Designer.cs">
+      <DependentUpon>frmInico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMetododePagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMetododePagamento.Designer.cs">
+      <DependentUpon>frmMetododePagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Login.cs" />
+    <Compile Include="Formularios\FrmCadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCadastroUsuario.Designer.cs">
+      <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="msdbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>msdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\NovaVenda.cs" />
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\FrmFornecedorCadastro.resx">
+      <DependentUpon>FrmFornecedorCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmInico.resx">
+      <DependentUpon>frmInico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMetododePagamento.resx">
+      <DependentUpon>frmMetododePagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmCadastroUsuario.resx">
+      <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 80760fd24919168cff727a81ea1a00abefa73afe
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -118,6 +177,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <None Include="OBrechoEDelaDBDataSet.xsc">
       <DependentUpon>OBrechoEDelaDBDataSet.xsd</DependentUpon>
     </None>
@@ -128,6 +188,18 @@
     </None>
     <None Include="OBrechoEDelaDBDataSet.xss">
       <DependentUpon>OBrechoEDelaDBDataSet.xsd</DependentUpon>
+=======
+    <None Include="msdbDataSet.xsc">
+      <DependentUpon>msdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="msdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>msdbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="msdbDataSet.xss">
+      <DependentUpon>msdbDataSet.xsd</DependentUpon>
+>>>>>>> 80760fd24919168cff727a81ea1a00abefa73afe
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

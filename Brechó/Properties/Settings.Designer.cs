@@ -33,6 +33,7 @@ namespace Brechó.Properties {
                 return ((string)(this["msdbConnectionString"]));
             }
         }
+<<<<<<< HEAD
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -43,5 +44,7 @@ namespace Brechó.Properties {
                 return ((string)(this["OBrechoEDelaDBConnectionString"]));
             }
         }
+=======
+>>>>>>> 80760fd24919168cff727a81ea1a00abefa73afe
     }
 }

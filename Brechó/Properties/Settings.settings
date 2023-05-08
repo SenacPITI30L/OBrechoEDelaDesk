@@ -10,6 +10,7 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=DESKTOP-E60MKQE\SQLEXPRESS;Initial Catalog=msdb;Integrated Security=True</Value>
     </Setting>
+<<<<<<< HEAD
     <Setting Name="OBrechoEDelaDBConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
@@ -18,5 +19,7 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=.;Initial Catalog=OBrechoEDelaDB;Integrated Security=True</Value>
     </Setting>
+=======
+>>>>>>> 80760fd24919168cff727a81ea1a00abefa73afe
   </Settings>
 </SettingsFile>

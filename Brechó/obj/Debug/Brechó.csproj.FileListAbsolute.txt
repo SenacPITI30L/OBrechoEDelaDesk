@@ -20,6 +20,7 @@ C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.exe
 C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.pdb
 C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmInico.resources
 C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmMetododePagamento.resources
+<<<<<<< HEAD
 C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmClienteCadastro.resources
 C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmClienteCadastro.resources
 C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmInico.resources
@@ -39,3 +40,11 @@ C:\Users\victo\source\repos\Brechó\Brechó\bin\Debug\Brechó.exe
 C:\Users\victo\source\repos\Brechó\Brechó\bin\Debug\Brechó.pdb
 C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmConsultaEstoque.resources
 C:\Users\victo\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmEditaEstoque.resources
+=======
+C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmInico.resources
+C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.frmMetododePagamento.resources
+C:\Users\michele.ssouza18\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmFornecedorCadastro.resources
+C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmFornecedorCadastro.resources
+C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmLogin.resources
+C:\Users\pessoal\source\repos\Brechó\Brechó\obj\Debug\Brechó.FrmCadastroUsuario.resources
+>>>>>>> 80760fd24919168cff727a81ea1a00abefa73afe
