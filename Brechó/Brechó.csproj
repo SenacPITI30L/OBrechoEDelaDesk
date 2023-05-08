@@ -48,6 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CadastroDeCliente.cs" />
+    <Compile Include="classButtonCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaEstoque.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="FrmClienteCadastro.cs">
       <SubType>Form</SubType>
@@ -55,10 +59,10 @@
     <Compile Include="FrmClienteCadastro.Designer.cs">
       <DependentUpon>FrmClienteCadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmConsultaEstoque.cs">
+    <Compile Include="Forms\frmConsultaEstoque.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConsultaEstoque.Designer.cs">
+    <Compile Include="Forms\frmConsultaEstoque.Designer.cs">
       <DependentUpon>frmConsultaEstoque.cs</DependentUpon>
     </Compile>
     <Compile Include="frmEditaEstoque.cs">
@@ -93,7 +97,7 @@
     <EmbeddedResource Include="FrmClienteCadastro.resx">
       <DependentUpon>FrmClienteCadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmConsultaEstoque.resx">
+    <EmbeddedResource Include="Forms\frmConsultaEstoque.resx">
       <DependentUpon>frmConsultaEstoque.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditaEstoque.resx">
