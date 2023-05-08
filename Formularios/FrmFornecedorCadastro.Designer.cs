@@ -1,6 +1,6 @@
 ﻿namespace Brechó
 {
-    partial class FrmClienteCadastro
+    partial class FrmFornecedorCadastro
     {
         /// <summary>
         /// Required designer variable.
@@ -39,6 +39,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btncdc_Cancela = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -47,13 +49,13 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(334, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(288, 31);
+            this.label1.Size = new System.Drawing.Size(330, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Cadastro de Clientes";
+            this.label1.Text = "Cadastro de Fornecedor";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(446, 148);
+            this.textBox1.Location = new System.Drawing.Point(519, 146);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(130, 20);
             this.textBox1.TabIndex = 1;
@@ -62,7 +64,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(380, 148);
+            this.label2.Location = new System.Drawing.Point(346, 146);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 20);
             this.label2.TabIndex = 2;
@@ -72,7 +74,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(380, 189);
+            this.label3.Location = new System.Drawing.Point(346, 180);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 3;
@@ -80,7 +82,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(477, 191);
+            this.textBox2.Location = new System.Drawing.Point(519, 180);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(130, 20);
             this.textBox2.TabIndex = 4;
@@ -89,7 +91,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(380, 230);
+            this.label4.Location = new System.Drawing.Point(346, 211);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 20);
             this.label4.TabIndex = 5;
@@ -97,7 +99,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(470, 232);
+            this.textBox3.Location = new System.Drawing.Point(519, 211);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(130, 20);
             this.textBox3.TabIndex = 6;
@@ -106,7 +108,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(380, 276);
+            this.label5.Location = new System.Drawing.Point(346, 247);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(64, 20);
             this.label5.TabIndex = 7;
@@ -114,7 +116,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(450, 278);
+            this.textBox4.Location = new System.Drawing.Point(519, 249);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(130, 20);
             this.textBox4.TabIndex = 8;
@@ -122,7 +124,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(350, 331);
+            this.button1.Location = new System.Drawing.Point(340, 326);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 52);
             this.button1.TabIndex = 9;
@@ -132,18 +134,38 @@
             // btncdc_Cancela
             // 
             this.btncdc_Cancela.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncdc_Cancela.Location = new System.Drawing.Point(501, 331);
+            this.btncdc_Cancela.Location = new System.Drawing.Point(479, 326);
             this.btncdc_Cancela.Name = "btncdc_Cancela";
             this.btncdc_Cancela.Size = new System.Drawing.Size(121, 52);
             this.btncdc_Cancela.TabIndex = 10;
             this.btncdc_Cancela.Text = "Cancelar";
             this.btncdc_Cancela.UseVisualStyleBackColor = true;
+            this.btncdc_Cancela.Click += new System.EventHandler(this.btncdc_Cancela_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(346, 287);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(167, 20);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Código Fornecedor:";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(519, 289);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(130, 20);
+            this.textBox5.TabIndex = 12;
             // 
             // FrmClienteCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(905, 527);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btncdc_Cancela);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
@@ -176,5 +198,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btncdc_Cancela;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }

@@ -10,16 +10,17 @@ using System.Windows.Forms;
 
 namespace Brechó
 {
-    public partial class frmMetododePagamento : Form
+    public partial class FrmClienteCadastro : Form
     {
-        public frmMetododePagamento()
+        public FrmClienteCadastro()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void btncdc_Cancela_Click(object sender, EventArgs e)
         {
-
+            this.Close(); 
         }
+
     }
 }

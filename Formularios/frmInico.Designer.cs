@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.btnConsultarEstoque = new System.Windows.Forms.Button();
             this.btnDespesas = new System.Windows.Forms.Button();
             this.btnConsignados = new System.Windows.Forms.Button();
@@ -47,6 +47,7 @@
             // 
             // btnConsultarEstoque
             // 
+            this.btnConsultarEstoque.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnConsultarEstoque.Location = new System.Drawing.Point(0, 308);
             this.btnConsultarEstoque.Name = "btnConsultarEstoque";
             this.btnConsultarEstoque.Size = new System.Drawing.Size(284, 71);
@@ -56,6 +57,7 @@
             // 
             // btnDespesas
             // 
+            this.btnDespesas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDespesas.Location = new System.Drawing.Point(0, 78);
             this.btnDespesas.Name = "btnDespesas";
             this.btnDespesas.Size = new System.Drawing.Size(284, 72);
@@ -65,6 +67,7 @@
             // 
             // btnConsignados
             // 
+            this.btnConsignados.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnConsignados.Location = new System.Drawing.Point(0, 156);
             this.btnConsignados.Name = "btnConsignados";
             this.btnConsignados.Size = new System.Drawing.Size(284, 70);
@@ -74,6 +77,7 @@
             // 
             // btnRelatoriosAnteriores
             // 
+            this.btnRelatoriosAnteriores.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRelatoriosAnteriores.Location = new System.Drawing.Point(0, 232);
             this.btnRelatoriosAnteriores.Name = "btnRelatoriosAnteriores";
             this.btnRelatoriosAnteriores.Size = new System.Drawing.Size(284, 70);
@@ -83,6 +87,7 @@
             // 
             // btnGrafico
             // 
+            this.btnGrafico.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGrafico.Location = new System.Drawing.Point(617, 184);
             this.btnGrafico.Name = "btnGrafico";
             this.btnGrafico.Size = new System.Drawing.Size(114, 42);
@@ -93,6 +98,7 @@
             // 
             // btnNovaVenda
             // 
+            this.btnNovaVenda.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNovaVenda.Location = new System.Drawing.Point(0, -4);
             this.btnNovaVenda.Name = "btnNovaVenda";
             this.btnNovaVenda.Size = new System.Drawing.Size(284, 76);
@@ -103,6 +109,7 @@
             // 
             // btnAdicionarEstoque
             // 
+            this.btnAdicionarEstoque.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdicionarEstoque.Location = new System.Drawing.Point(0, 390);
             this.btnAdicionarEstoque.Name = "btnAdicionarEstoque";
             this.btnAdicionarEstoque.Size = new System.Drawing.Size(284, 74);
@@ -112,6 +119,7 @@
             // 
             // btnGerarRelatorio
             // 
+            this.btnGerarRelatorio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGerarRelatorio.Location = new System.Drawing.Point(0, 470);
             this.btnGerarRelatorio.Name = "btnGerarRelatorio";
             this.btnGerarRelatorio.Size = new System.Drawing.Size(284, 73);
@@ -121,34 +129,35 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(333, 24);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
-            series1.LabelForeColor = System.Drawing.Color.Red;
-            series1.Legend = "Legend1";
-            series1.Name = "Despesas do mês";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
-            series2.Legend = "Legend1";
-            series2.Name = "Valores";
-            this.chart1.Series.Add(series1);
-            this.chart1.Series.Add(series2);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
+            series3.LabelForeColor = System.Drawing.Color.Red;
+            series3.Legend = "Legend1";
+            series3.Name = "Despesas do mês";
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
+            series4.Legend = "Legend1";
+            series4.Name = "Valores";
+            this.chart1.Series.Add(series3);
+            this.chart1.Series.Add(series4);
             this.chart1.Size = new System.Drawing.Size(413, 365);
             this.chart1.TabIndex = 4;
             this.chart1.Text = "Despesas";
             // 
             // btnCadastrodeCliente
             // 
-            this.btnCadastrodeCliente.Location = new System.Drawing.Point(333, 412);
+            this.btnCadastrodeCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCadastrodeCliente.Location = new System.Drawing.Point(333, 413);
             this.btnCadastrodeCliente.Name = "btnCadastrodeCliente";
             this.btnCadastrodeCliente.Size = new System.Drawing.Size(218, 72);
             this.btnCadastrodeCliente.TabIndex = 9;
-            this.btnCadastrodeCliente.Text = "Cadastro de Cliente";
+            this.btnCadastrodeCliente.Text = "Cadastro de Fornecedor";
             this.btnCadastrodeCliente.UseVisualStyleBackColor = true;
             this.btnCadastrodeCliente.Click += new System.EventHandler(this.btnCadastrodeCliente_Click);
             // 

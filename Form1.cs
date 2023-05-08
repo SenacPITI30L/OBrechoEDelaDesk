@@ -9,12 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-
 namespace Brechó
 {
-    public partial class frmInico : Form
+    public partial class Form1 : Form
     {
-        public frmInico()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -32,18 +31,21 @@ namespace Brechó
 
             this.chart1.Series["Despesas do mês"].Points.AddXY("Sapatos", 1700);// aqui teremos que mudar os valores dos eixos
             this.chart1.Series["Valores"].Points.AddXY("Sapatos", 1700);
-        }
-        private void btnNovaVenda_Click(object sender, EventArgs e)
-        {
-            frmMetododePagamento vender = new frmMetododePagamento();
-            vender.ShowDialog();
-            
+
+
         }
 
-        private void btnCadastrodeCliente_Click(object sender, EventArgs e)
+        private void txtNovaVenda_KeyUp(object sender, KeyEventArgs e)
         {
-            FrmClienteCadastro novo = new FrmClienteCadastro();
-            novo.ShowDialog();
+            if(e.KeyCode == Keys.Enter) 
+            {
+                MessageBox.Show(txtNovaVenda.Text);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

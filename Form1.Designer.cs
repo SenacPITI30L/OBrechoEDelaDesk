@@ -1,6 +1,6 @@
 ﻿namespace Brechó
 {
-    partial class frmInico
+    partial class Form1
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -41,13 +41,13 @@
             this.btnAdicionarEstoque = new System.Windows.Forms.Button();
             this.btnGerarRelatorio = new System.Windows.Forms.Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.btnCadastrodeCliente = new System.Windows.Forms.Button();
+            this.txtNovaVenda = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConsultarEstoque
             // 
-            this.btnConsultarEstoque.Location = new System.Drawing.Point(0, 308);
+            this.btnConsultarEstoque.Location = new System.Drawing.Point(12, 29);
             this.btnConsultarEstoque.Name = "btnConsultarEstoque";
             this.btnConsultarEstoque.Size = new System.Drawing.Size(284, 71);
             this.btnConsultarEstoque.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             // btnDespesas
             // 
-            this.btnDespesas.Location = new System.Drawing.Point(0, 78);
+            this.btnDespesas.Location = new System.Drawing.Point(12, 121);
             this.btnDespesas.Name = "btnDespesas";
             this.btnDespesas.Size = new System.Drawing.Size(284, 72);
             this.btnDespesas.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             // btnConsignados
             // 
-            this.btnConsignados.Location = new System.Drawing.Point(0, 156);
+            this.btnConsignados.Location = new System.Drawing.Point(12, 214);
             this.btnConsignados.Name = "btnConsignados";
             this.btnConsignados.Size = new System.Drawing.Size(284, 70);
             this.btnConsignados.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             // btnRelatoriosAnteriores
             // 
-            this.btnRelatoriosAnteriores.Location = new System.Drawing.Point(0, 232);
+            this.btnRelatoriosAnteriores.Location = new System.Drawing.Point(12, 304);
             this.btnRelatoriosAnteriores.Name = "btnRelatoriosAnteriores";
             this.btnRelatoriosAnteriores.Size = new System.Drawing.Size(284, 70);
             this.btnRelatoriosAnteriores.TabIndex = 3;
@@ -83,7 +83,7 @@
             // 
             // btnGrafico
             // 
-            this.btnGrafico.Location = new System.Drawing.Point(617, 184);
+            this.btnGrafico.Location = new System.Drawing.Point(637, 256);
             this.btnGrafico.Name = "btnGrafico";
             this.btnGrafico.Size = new System.Drawing.Size(114, 42);
             this.btnGrafico.TabIndex = 5;
@@ -93,28 +93,27 @@
             // 
             // btnNovaVenda
             // 
-            this.btnNovaVenda.Location = new System.Drawing.Point(0, -4);
+            this.btnNovaVenda.Location = new System.Drawing.Point(40, 416);
             this.btnNovaVenda.Name = "btnNovaVenda";
-            this.btnNovaVenda.Size = new System.Drawing.Size(284, 76);
+            this.btnNovaVenda.Size = new System.Drawing.Size(182, 66);
             this.btnNovaVenda.TabIndex = 6;
             this.btnNovaVenda.Text = "Nova Venda";
             this.btnNovaVenda.UseVisualStyleBackColor = true;
-            this.btnNovaVenda.Click += new System.EventHandler(this.btnNovaVenda_Click);
             // 
             // btnAdicionarEstoque
             // 
-            this.btnAdicionarEstoque.Location = new System.Drawing.Point(0, 390);
+            this.btnAdicionarEstoque.Location = new System.Drawing.Point(452, 407);
             this.btnAdicionarEstoque.Name = "btnAdicionarEstoque";
-            this.btnAdicionarEstoque.Size = new System.Drawing.Size(284, 74);
+            this.btnAdicionarEstoque.Size = new System.Drawing.Size(182, 66);
             this.btnAdicionarEstoque.TabIndex = 7;
             this.btnAdicionarEstoque.Text = "Adicionar ao estoque";
             this.btnAdicionarEstoque.UseVisualStyleBackColor = true;
             // 
             // btnGerarRelatorio
             // 
-            this.btnGerarRelatorio.Location = new System.Drawing.Point(0, 470);
+            this.btnGerarRelatorio.Location = new System.Drawing.Point(695, 407);
             this.btnGerarRelatorio.Name = "btnGerarRelatorio";
-            this.btnGerarRelatorio.Size = new System.Drawing.Size(284, 73);
+            this.btnGerarRelatorio.Size = new System.Drawing.Size(182, 66);
             this.btnGerarRelatorio.TabIndex = 8;
             this.btnGerarRelatorio.Text = "Gerar Relatório";
             this.btnGerarRelatorio.UseVisualStyleBackColor = true;
@@ -125,7 +124,7 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(333, 24);
+            this.chart1.Location = new System.Drawing.Point(331, 29);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
@@ -138,26 +137,24 @@
             series2.Name = "Valores";
             this.chart1.Series.Add(series1);
             this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(413, 365);
+            this.chart1.Size = new System.Drawing.Size(440, 362);
             this.chart1.TabIndex = 4;
             this.chart1.Text = "Despesas";
             // 
-            // btnCadastrodeCliente
+            // txtNovaVenda
             // 
-            this.btnCadastrodeCliente.Location = new System.Drawing.Point(333, 412);
-            this.btnCadastrodeCliente.Name = "btnCadastrodeCliente";
-            this.btnCadastrodeCliente.Size = new System.Drawing.Size(218, 72);
-            this.btnCadastrodeCliente.TabIndex = 9;
-            this.btnCadastrodeCliente.Text = "Cadastro de Cliente";
-            this.btnCadastrodeCliente.UseVisualStyleBackColor = true;
-            this.btnCadastrodeCliente.Click += new System.EventHandler(this.btnCadastrodeCliente_Click);
+            this.txtNovaVenda.Location = new System.Drawing.Point(255, 440);
+            this.txtNovaVenda.Name = "txtNovaVenda";
+            this.txtNovaVenda.Size = new System.Drawing.Size(134, 20);
+            this.txtNovaVenda.TabIndex = 9;
+            this.txtNovaVenda.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtNovaVenda_KeyUp);
             // 
-            // frmInico
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(914, 541);
-            this.Controls.Add(this.btnCadastrodeCliente);
+            this.Controls.Add(this.txtNovaVenda);
             this.Controls.Add(this.btnGerarRelatorio);
             this.Controls.Add(this.btnAdicionarEstoque);
             this.Controls.Add(this.btnNovaVenda);
@@ -167,10 +164,12 @@
             this.Controls.Add(this.btnConsignados);
             this.Controls.Add(this.btnDespesas);
             this.Controls.Add(this.btnConsultarEstoque);
-            this.Name = "frmInico";
-            this.Text = "Home Page";
+            this.Name = "Form1";
+            this.Text = "0,";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -185,7 +184,7 @@
         private System.Windows.Forms.Button btnAdicionarEstoque;
         private System.Windows.Forms.Button btnGerarRelatorio;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Button btnCadastrodeCliente;
+        private System.Windows.Forms.TextBox txtNovaVenda;
     }
 }
 

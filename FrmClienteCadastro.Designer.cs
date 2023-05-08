@@ -138,6 +138,7 @@
             this.btncdc_Cancela.TabIndex = 10;
             this.btncdc_Cancela.Text = "Cancelar";
             this.btncdc_Cancela.UseVisualStyleBackColor = true;
+            this.btncdc_Cancela.Click += new System.EventHandler(this.btncdc_Cancela_Click);
             // 
             // FrmClienteCadastro
             // 

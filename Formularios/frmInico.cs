@@ -42,7 +42,7 @@ namespace Brechó
 
         private void btnCadastrodeCliente_Click(object sender, EventArgs e)
         {
-            FrmClienteCadastro novo = new FrmClienteCadastro();
+            FrmFornecedorCadastro novo = new FrmFornecedorCadastro();
             novo.ShowDialog();
         }
     }

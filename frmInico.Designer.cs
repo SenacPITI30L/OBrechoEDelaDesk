@@ -38,7 +38,7 @@
             this.btnRelatoriosAnteriores = new System.Windows.Forms.Button();
             this.btnGrafico = new System.Windows.Forms.Button();
             this.btnNovaVenda = new System.Windows.Forms.Button();
-            this.btnAdicionarEstoque = new System.Windows.Forms.Button();
+            this.btnAditaEstoque = new System.Windows.Forms.Button();
             this.btnGerarRelatorio = new System.Windows.Forms.Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnCadastrodeCliente = new System.Windows.Forms.Button();
@@ -53,6 +53,7 @@
             this.btnConsultarEstoque.TabIndex = 0;
             this.btnConsultarEstoque.Text = "Consultar estoque";
             this.btnConsultarEstoque.UseVisualStyleBackColor = true;
+            this.btnConsultarEstoque.Click += new System.EventHandler(this.btnConsultarEstoque_Click);
             // 
             // btnDespesas
             // 
@@ -101,14 +102,15 @@
             this.btnNovaVenda.UseVisualStyleBackColor = true;
             this.btnNovaVenda.Click += new System.EventHandler(this.btnNovaVenda_Click);
             // 
-            // btnAdicionarEstoque
+            // btnAditaEstoque
             // 
-            this.btnAdicionarEstoque.Location = new System.Drawing.Point(0, 390);
-            this.btnAdicionarEstoque.Name = "btnAdicionarEstoque";
-            this.btnAdicionarEstoque.Size = new System.Drawing.Size(284, 74);
-            this.btnAdicionarEstoque.TabIndex = 7;
-            this.btnAdicionarEstoque.Text = "Adicionar ao estoque";
-            this.btnAdicionarEstoque.UseVisualStyleBackColor = true;
+            this.btnAditaEstoque.Location = new System.Drawing.Point(0, 390);
+            this.btnAditaEstoque.Name = "btnAditaEstoque";
+            this.btnAditaEstoque.Size = new System.Drawing.Size(284, 74);
+            this.btnAditaEstoque.TabIndex = 7;
+            this.btnAditaEstoque.Text = "Editar Estoque";
+            this.btnAditaEstoque.UseVisualStyleBackColor = true;
+            this.btnAditaEstoque.Click += new System.EventHandler(this.btnAditaEstoque_Click);
             // 
             // btnGerarRelatorio
             // 
@@ -144,7 +146,7 @@
             // 
             // btnCadastrodeCliente
             // 
-            this.btnCadastrodeCliente.Location = new System.Drawing.Point(333, 412);
+            this.btnCadastrodeCliente.Location = new System.Drawing.Point(333, 413);
             this.btnCadastrodeCliente.Name = "btnCadastrodeCliente";
             this.btnCadastrodeCliente.Size = new System.Drawing.Size(218, 72);
             this.btnCadastrodeCliente.TabIndex = 9;
@@ -159,7 +161,7 @@
             this.ClientSize = new System.Drawing.Size(914, 541);
             this.Controls.Add(this.btnCadastrodeCliente);
             this.Controls.Add(this.btnGerarRelatorio);
-            this.Controls.Add(this.btnAdicionarEstoque);
+            this.Controls.Add(this.btnAditaEstoque);
             this.Controls.Add(this.btnNovaVenda);
             this.Controls.Add(this.btnGrafico);
             this.Controls.Add(this.chart1);
@@ -182,7 +184,7 @@
         private System.Windows.Forms.Button btnRelatoriosAnteriores;
         private System.Windows.Forms.Button btnGrafico;
         private System.Windows.Forms.Button btnNovaVenda;
-        private System.Windows.Forms.Button btnAdicionarEstoque;
+        private System.Windows.Forms.Button btnAditaEstoque;
         private System.Windows.Forms.Button btnGerarRelatorio;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.Button btnCadastrodeCliente;

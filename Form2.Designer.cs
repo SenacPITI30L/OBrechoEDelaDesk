@@ -1,6 +1,6 @@
 ﻿namespace Brechó
 {
-    partial class frmMetododePagamento
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -36,11 +36,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.cbFormaPagamento = new System.Windows.Forms.ComboBox();
-            this.txt_Valorpag = new System.Windows.Forms.TextBox();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -99,80 +100,59 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 50);
             this.button1.TabIndex = 10;
-            this.button1.Text = "Calcular";
+            this.button1.Text = "Concluir";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(167, 196);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(195, 20);
             this.numericUpDown1.TabIndex = 11;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
             // 
             // numericUpDown2
             // 
             this.numericUpDown2.Location = new System.Drawing.Point(167, 259);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(195, 20);
             this.numericUpDown2.TabIndex = 12;
             // 
-            // cbFormaPagamento
+            // numericUpDown3
             // 
-            this.cbFormaPagamento.FormattingEnabled = true;
-            this.cbFormaPagamento.Items.AddRange(new object[] {
+            this.numericUpDown3.Location = new System.Drawing.Point(167, 319);
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(195, 20);
+            this.numericUpDown3.TabIndex = 13;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
             "Débito",
             "Crédito",
             "Pix",
             "Dinheiro"});
-            this.cbFormaPagamento.Location = new System.Drawing.Point(255, 118);
-            this.cbFormaPagamento.Name = "cbFormaPagamento";
-            this.cbFormaPagamento.Size = new System.Drawing.Size(132, 21);
-            this.cbFormaPagamento.TabIndex = 14;
-            this.cbFormaPagamento.Text = "Selecionar";
-            // 
-            // txt_Valorpag
-            // 
-            this.txt_Valorpag.Location = new System.Drawing.Point(131, 61);
-            this.txt_Valorpag.Name = "txt_Valorpag";
-            this.txt_Valorpag.Size = new System.Drawing.Size(157, 20);
-            this.txt_Valorpag.TabIndex = 15;
+            this.comboBox1.Location = new System.Drawing.Point(255, 118);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(132, 21);
+            this.comboBox1.TabIndex = 14;
+            this.comboBox1.Text = "Selecionar";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(134, 321);
+            this.textBox1.Location = new System.Drawing.Point(131, 61);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(228, 20);
-            this.textBox1.TabIndex = 16;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.Size = new System.Drawing.Size(157, 20);
+            this.textBox1.TabIndex = 15;
             // 
-            // frmMetododePagamento
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.txt_Valorpag);
-            this.Controls.Add(this.cbFormaPagamento);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.numericUpDown3);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button1);
@@ -181,10 +161,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "frmMetododePagamento";
-            this.Text = "Método de Pagamento";
+            this.Name = "Form2";
+            this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,8 +181,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.ComboBox cbFormaPagamento;
-        private System.Windows.Forms.TextBox txt_Valorpag;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox1;
     }
 }

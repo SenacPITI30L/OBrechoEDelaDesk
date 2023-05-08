@@ -47,42 +47,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CadastroDeCliente.cs" />
-    <Compile Include="Cliente.cs" />
-    <Compile Include="FrmClienteCadastro.cs">
+    <Compile Include="Classes\CadastroDeCliente.cs" />
+    <Compile Include="Classes\Cliente.cs" />
+    <Compile Include="Formularios\FrmFornecedorCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmClienteCadastro.Designer.cs">
-      <DependentUpon>FrmClienteCadastro.cs</DependentUpon>
+    <Compile Include="Formularios\FrmFornecedorCadastro.Designer.cs">
+      <DependentUpon>FrmFornecedorCadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmInico.cs">
+    <Compile Include="Formularios\frmInico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInico.Designer.cs">
+    <Compile Include="Formularios\frmInico.Designer.cs">
       <DependentUpon>frmInico.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMetododePagamento.cs">
+    <Compile Include="Formularios\frmMetododePagamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMetododePagamento.Designer.cs">
+    <Compile Include="Formularios\frmMetododePagamento.Designer.cs">
       <DependentUpon>frmMetododePagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Login.cs" />
+    <Compile Include="Formularios\FrmCadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCadastroUsuario.Designer.cs">
+      <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="msdbDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>msdbDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="NovaVenda.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\NovaVenda.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmClienteCadastro.resx">
-      <DependentUpon>FrmClienteCadastro.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FrmFornecedorCadastro.resx">
+      <DependentUpon>FrmFornecedorCadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmInico.resx">
+    <EmbeddedResource Include="Formularios\frmInico.resx">
       <DependentUpon>frmInico.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMetododePagamento.resx">
+    <EmbeddedResource Include="Formularios\frmMetododePagamento.resx">
       <DependentUpon>frmMetododePagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmCadastroUsuario.resx">
+      <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
